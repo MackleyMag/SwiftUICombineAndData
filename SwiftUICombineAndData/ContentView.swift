@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ZStack(alignment: .top) {
-                Text("Hello, world!")
+                Text("Hello, world! ")
                     .padding()
             }
             .frame(maxHeight: .infinity, alignment: .top)
