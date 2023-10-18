@@ -14,6 +14,10 @@
 		AEBC8C7D2ADE2D97006EE685 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC8C7B2ADE2D97006EE685 /* VisualEffectBlur.swift */; };
 		AEBC8C7E2ADE2D97006EE685 /* AccountBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC8C7C2ADE2D97006EE685 /* AccountBackground.swift */; };
 		AEBC8C802ADF6DA3006EE685 /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC8C7F2ADF6DA3006EE685 /* TrackableScrollView.swift */; };
+		AEBC8C822ADF7231006EE685 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC8C812ADF7231006EE685 /* MenuRow.swift */; };
+		AEBC8C842ADF73EB006EE685 /* GradientIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC8C832ADF73EB006EE685 /* GradientIcon.swift */; };
+		AEBC8C862ADF790A006EE685 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC8C852ADF790A006EE685 /* FAQView.swift */; };
+		AEBC8C882ADF7914006EE685 /* PackagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC8C872ADF7914006EE685 /* PackagesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		AEBC8C7B2ADE2D97006EE685 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		AEBC8C7C2ADE2D97006EE685 /* AccountBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountBackground.swift; sourceTree = "<group>"; };
 		AEBC8C7F2ADF6DA3006EE685 /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
+		AEBC8C812ADF7231006EE685 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
+		AEBC8C832ADF73EB006EE685 /* GradientIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientIcon.swift; sourceTree = "<group>"; };
+		AEBC8C852ADF790A006EE685 /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
+		AEBC8C872ADF7914006EE685 /* PackagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,9 @@
 		AEBC8C6B2ADE2A87006EE685 /* SwiftUICombineAndData */ = {
 			isa = PBXGroup;
 			children = (
+				AEBC8C8D2ADF7947006EE685 /* Components */,
+				AEBC8C8C2ADF7941006EE685 /* Utils */,
+				AEBC8C892ADF7929006EE685 /* Views */,
 				AEBC8C7A2ADE2D97006EE685 /* Graphics */,
 				AEBC8C6C2ADE2A87006EE685 /* SwiftUICombineAndDataApp.swift */,
 				AEBC8C6E2ADE2A87006EE685 /* ContentView.swift */,
@@ -82,6 +93,47 @@
 				AEBC8C7C2ADE2D97006EE685 /* AccountBackground.swift */,
 			);
 			path = Graphics;
+			sourceTree = "<group>";
+		};
+		AEBC8C892ADF7929006EE685 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AEBC8C852ADF790A006EE685 /* FAQView.swift */,
+				AEBC8C872ADF7914006EE685 /* PackagesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AEBC8C8A2ADF7932006EE685 /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				AEBC8C812ADF7231006EE685 /* MenuRow.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
+		AEBC8C8B2ADF793A006EE685 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				AEBC8C832ADF73EB006EE685 /* GradientIcon.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		AEBC8C8C2ADF7941006EE685 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AEBC8C8D2ADF7947006EE685 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AEBC8C8A2ADF7932006EE685 /* Rows */,
+				AEBC8C8B2ADF793A006EE685 /* Other */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,8 +209,12 @@
 				AEBC8C7D2ADE2D97006EE685 /* VisualEffectBlur.swift in Sources */,
 				AEBC8C802ADF6DA3006EE685 /* TrackableScrollView.swift in Sources */,
 				AEBC8C6F2ADE2A87006EE685 /* ContentView.swift in Sources */,
+				AEBC8C882ADF7914006EE685 /* PackagesView.swift in Sources */,
+				AEBC8C862ADF790A006EE685 /* FAQView.swift in Sources */,
+				AEBC8C842ADF73EB006EE685 /* GradientIcon.swift in Sources */,
 				AEBC8C6D2ADE2A87006EE685 /* SwiftUICombineAndDataApp.swift in Sources */,
 				AEBC8C7E2ADE2D97006EE685 /* AccountBackground.swift in Sources */,
+				AEBC8C822ADF7231006EE685 /* MenuRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
