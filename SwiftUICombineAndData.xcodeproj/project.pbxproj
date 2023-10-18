@@ -13,6 +13,7 @@
 		AEBC8C742ADE2A89006EE685 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBC8C732ADE2A89006EE685 /* Preview Assets.xcassets */; };
 		AEBC8C7D2ADE2D97006EE685 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC8C7B2ADE2D97006EE685 /* VisualEffectBlur.swift */; };
 		AEBC8C7E2ADE2D97006EE685 /* AccountBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC8C7C2ADE2D97006EE685 /* AccountBackground.swift */; };
+		AEBC8C802ADF6DA3006EE685 /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC8C7F2ADF6DA3006EE685 /* TrackableScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		AEBC8C732ADE2A89006EE685 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AEBC8C7B2ADE2D97006EE685 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		AEBC8C7C2ADE2D97006EE685 /* AccountBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountBackground.swift; sourceTree = "<group>"; };
+		AEBC8C7F2ADF6DA3006EE685 /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				AEBC8C6E2ADE2A87006EE685 /* ContentView.swift */,
 				AEBC8C702ADE2A89006EE685 /* Assets.xcassets */,
 				AEBC8C722ADE2A89006EE685 /* Preview Content */,
+				AEBC8C7F2ADF6DA3006EE685 /* TrackableScrollView.swift */,
 			);
 			path = SwiftUICombineAndData;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEBC8C7D2ADE2D97006EE685 /* VisualEffectBlur.swift in Sources */,
+				AEBC8C802ADF6DA3006EE685 /* TrackableScrollView.swift in Sources */,
 				AEBC8C6F2ADE2A87006EE685 /* ContentView.swift in Sources */,
 				AEBC8C6D2ADE2A87006EE685 /* SwiftUICombineAndDataApp.swift in Sources */,
 				AEBC8C7E2ADE2D97006EE685 /* AccountBackground.swift in Sources */,
