@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE6771A92B07DC9000AE5D13 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6771A82B07DC9000AE5D13 /* Package.swift */; };
+		AE6771AB2B07DD8500AE5D13 /* PackageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6771AA2B07DD8500AE5D13 /* PackageRow.swift */; };
 		AEBC8C6D2ADE2A87006EE685 /* SwiftUICombineAndDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC8C6C2ADE2A87006EE685 /* SwiftUICombineAndDataApp.swift */; };
 		AEBC8C6F2ADE2A87006EE685 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC8C6E2ADE2A87006EE685 /* ContentView.swift */; };
 		AEBC8C712ADE2A89006EE685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBC8C702ADE2A89006EE685 /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE6771A82B07DC9000AE5D13 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		AE6771AA2B07DD8500AE5D13 /* PackageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageRow.swift; sourceTree = "<group>"; };
 		AEBC8C692ADE2A87006EE685 /* SwiftUICombineAndData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICombineAndData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBC8C6C2ADE2A87006EE685 /* SwiftUICombineAndDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICombineAndDataApp.swift; sourceTree = "<group>"; };
 		AEBC8C6E2ADE2A87006EE685 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE6771A72B07DC7100AE5D13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE6771A82B07DC9000AE5D13 /* Package.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		AEBC8C602ADE2A87006EE685 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +77,7 @@
 		AEBC8C6B2ADE2A87006EE685 /* SwiftUICombineAndData */ = {
 			isa = PBXGroup;
 			children = (
+				AE6771A72B07DC7100AE5D13 /* Models */,
 				AEBC8C8D2ADF7947006EE685 /* Components */,
 				AEBC8C8C2ADF7941006EE685 /* Utils */,
 				AEBC8C892ADF7929006EE685 /* Views */,
@@ -108,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				AEBC8C812ADF7231006EE685 /* MenuRow.swift */,
+				AE6771AA2B07DD8500AE5D13 /* PackageRow.swift */,
 			);
 			path = Rows;
 			sourceTree = "<group>";
@@ -209,9 +223,11 @@
 				AEBC8C7D2ADE2D97006EE685 /* VisualEffectBlur.swift in Sources */,
 				AEBC8C802ADF6DA3006EE685 /* TrackableScrollView.swift in Sources */,
 				AEBC8C6F2ADE2A87006EE685 /* ContentView.swift in Sources */,
+				AE6771AB2B07DD8500AE5D13 /* PackageRow.swift in Sources */,
 				AEBC8C882ADF7914006EE685 /* PackagesView.swift in Sources */,
 				AEBC8C862ADF790A006EE685 /* FAQView.swift in Sources */,
 				AEBC8C842ADF73EB006EE685 /* GradientIcon.swift in Sources */,
+				AE6771A92B07DC9000AE5D13 /* Package.swift in Sources */,
 				AEBC8C6D2ADE2A87006EE685 /* SwiftUICombineAndDataApp.swift in Sources */,
 				AEBC8C7E2ADE2D97006EE685 /* AccountBackground.swift in Sources */,
 				AEBC8C822ADF7231006EE685 /* MenuRow.swift in Sources */,
