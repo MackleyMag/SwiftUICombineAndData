@@ -15,7 +15,7 @@ struct PackagesView: View {
             TrackableScrollView(offsetChanged: { offsetPoint in
                 contentOffset = offsetPoint.y
             }) {
-                Text("Hello, world!")
+                content
             }
 
             VisualEffectBlur(blurStyle: .systemMaterial)
