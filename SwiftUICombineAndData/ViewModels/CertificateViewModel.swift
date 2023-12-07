@@ -5,9 +5,9 @@
 //  Created by Mackley Magalhães da Silva on 21/11/23.
 //
 
-import Foundation
 import Firebase
 import FirebaseFirestore
+import Foundation
 
 final class CertificateViewModel: ObservableObject {
     @Published var certificates: [Certificate] = []
@@ -35,7 +35,6 @@ final class CertificateViewModel: ObservableObject {
                         let instructor = data["instructor"] as? String ?? ""
                         
                         let certificate = Certificate(id: id, course: course, date: date ?? "", logo: logo, instructor: instructor)
-                        print("entrou aqui")
                         self.certificates.append(certificate)
                     }
                 }

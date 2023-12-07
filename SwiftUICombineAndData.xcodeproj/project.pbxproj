@@ -128,6 +128,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE190AF92B226954007B51E8 /* Cars */ = {
+			isa = PBXGroup;
+			children = (
+				AE9DD0C22B224F370016DF1A /* CertificateCard.swift */,
+			);
+			path = Cars;
+			sourceTree = "<group>";
+		};
 		AE6771A72B07DC7100AE5D13 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,7 +228,6 @@
 				AEBC8C852ADF790A006EE685 /* FAQView.swift */,
 				AEBC8C872ADF7914006EE685 /* PackagesView.swift */,
 				AE9DD0C02B224E600016DF1A /* CertificatesView.swift */,
-				AE9DD0C22B224F370016DF1A /* CertificateCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -257,6 +264,7 @@
 		AEBC8C8D2ADF7947006EE685 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				AE190AF92B226954007B51E8 /* Cars */,
 				AE9DD07B2B0CF2830016DF1A /* Buttons */,
 				AEBC8C8A2ADF7932006EE685 /* Rows */,
 				AEBC8C8B2ADF793A006EE685 /* Other */,
