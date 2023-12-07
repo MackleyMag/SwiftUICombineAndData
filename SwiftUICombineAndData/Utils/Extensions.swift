@@ -27,3 +27,12 @@ extension View {
             .mask(RoundedRectangle(cornerRadius: 20, style: .continuous))
     }
 }
+
+extension Date {
+    func formateDate() -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+        dateFormatter.setLocalizedDateFormatFromTemplate("MMMM d, yyyy")
+        return dateFormatter.string(from: self)
+    }
+}

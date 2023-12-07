@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @Environment(\.colorScheme) var colorScheme: ColorScheme
     @State private var contentOffset = CGFloat(0)
+    @State private var showCertificates: Bool = false
     
     
     var body: some View {
@@ -38,6 +39,9 @@ struct ContentView: View {
     var content: some View {
         VStack {
             ProfileRow()
+                .onTapGesture {
+                    showCertificates.toggle()
+                }
             
             VStack {
                 NavigationLink(destination: FAQView()) {
@@ -61,6 +65,9 @@ struct ContentView: View {
         }
         .foregroundColor(.white)
         .padding(EdgeInsets(top: 20, leading: 20, bottom: 10, trailing: 20))
+        .sheet(isPresented: $showCertificates, content: {
+            CertificatesView()
+        })
     }
     
     var divider: some View {
